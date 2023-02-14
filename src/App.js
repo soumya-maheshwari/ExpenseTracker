@@ -4,6 +4,7 @@ import Budget from "./Components/Budget";
 import Remaining from "./Components/Remaining";
 import Spent from "./Components/Spent";
 import AddExpense from "./Components/AddExpense";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="container">
@@ -25,6 +26,7 @@ function App() {
           <AddExpense />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

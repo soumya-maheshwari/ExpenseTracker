@@ -10,7 +10,6 @@
 .edit-icon {
   cursor: pointer;
   margin-left: 120px;
-  /* font-size: 30x; */
 }
 
 .add {
@@ -19,4 +18,11 @@
   align-items: center;
   text-align: center;
   display: flex;
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
 }
