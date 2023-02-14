@@ -12,3 +12,11 @@
   margin-left: 120px;
   /* font-size: 30x; */
 }
+
+.add {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
