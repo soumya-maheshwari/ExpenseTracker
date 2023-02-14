@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Budget from "./Components/Budget";
+import Remaining from "./Components/Remaining";
+import Spent from "./Components/Spent";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1 className="heading">My Budget Planner</h1>
+      <div className="row mt-3">
+        <div className="col">
+          <Budget />
+        </div>
+        <div className="col">
+          <Remaining />
+        </div>
+        <div className="col">
+          <Spent />
+        </div>
+      </div>
     </div>
   );
 }
