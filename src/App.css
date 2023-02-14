@@ -6,3 +6,9 @@
   text-align: center;
   margin-top: 20px;
 }
+
+.edit-icon {
+  cursor: pointer;
+  margin-left: 120px;
+  /* font-size: 30x; */
+}
