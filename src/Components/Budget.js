@@ -5,7 +5,7 @@ const Budget = () => {
   const { Budget } = useContext(AppContext);
   return (
     <div className="alert alert-secondary">
-      <span>Budget: {Budget}</span>
+      <span>Budget: 2000{Budget}</span>
       <AiFillEdit className="edit-icon" />
     </div>
   );
