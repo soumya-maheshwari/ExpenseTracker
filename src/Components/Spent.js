@@ -7,9 +7,11 @@ const Spent = () => {
   const totalExpense = expenses.reduce((total, item) => {
     return (total = total + item.cost);
   }, 0);
+
+  const a = parseInt(totalExpense);
   return (
     <div className="alert alert-primary">
-      <span>Spent so far: {totalExpense}</span>
+      <span>Spent so far: {a}</span>
     </div>
   );
 };
