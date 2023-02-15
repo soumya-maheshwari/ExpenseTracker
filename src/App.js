@@ -21,15 +21,16 @@ function App() {
           <Spent />
         </div>
       </div>
-      {/* <h2 className="heading">ADD EXPENSE</h2> */}
-      {/* <div className="row ">
-        <div className="col ">
-          <AddExpense />
-        </div>
-      </div> */}
       <div className="row">
         <ExpenseList />
       </div>
+      <h2 className="heading">ADD EXPENSE</h2>
+      <div className="row ">
+        <div className="col ">
+          <AddExpense />
+        </div>
+      </div>
+
       <Footer />
     </div>
   );

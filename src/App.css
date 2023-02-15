@@ -21,14 +21,6 @@
   margin-left: 120px;
 }
 
-.add {
-  width: 100px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-}
-
 .footer {
   bottom: 0;
   position: absolute;
@@ -44,4 +36,8 @@
 
 .right {
   margin-left: 100px;
+}
+
+.input {
+  margin-left: 5px;
 }

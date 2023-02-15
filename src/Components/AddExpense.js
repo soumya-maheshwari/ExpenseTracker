@@ -7,17 +7,20 @@ const AddExpense = () => {
         <div className="row">
           <div className="col">
             <label>Expenses on</label>
-            <input type="text" required="required" />
+            <input type="text" required="required" className="input" />
           </div>
-
-          <div className="col">
-            <label>cost</label>
-            <input type="text" required="required" />
+          <div className="row">
+            <div className="col mt-3">
+              <label>cost</label>
+              <input type="text" required="required" className="input" />
+            </div>
           </div>
-          <div className="col">
-            <button type="submit" className="btn btn-primary add">
-              save
-            </button>
+          <div className="row">
+            <div className="col mt-4">
+              <button type="submit" className="btn btn-primary ">
+                save
+              </button>
+            </div>
           </div>
         </div>
       </form>
