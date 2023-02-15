@@ -2,9 +2,18 @@
   text-align: center;
 }
 
+.container {
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .heading {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .edit-icon {
@@ -23,6 +32,16 @@
 .footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
+  justify-content: center;
   text-align: center;
+  align-items: center;
+  width: 90%;
+}
+
+.costs {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 100px;
 }

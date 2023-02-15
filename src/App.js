@@ -5,6 +5,7 @@ import Remaining from "./Components/Remaining";
 import Spent from "./Components/Spent";
 import AddExpense from "./Components/AddExpense";
 import Footer from "./Components/Footer";
+import ExpenseList from "./Components/ExpenseList";
 function App() {
   return (
     <div className="container">
@@ -20,11 +21,14 @@ function App() {
           <Spent />
         </div>
       </div>
-      <h2 className="heading">ADD EXPENSE</h2>
-      <div className="row mt-3">
-        <div className="col mt-3">
+      {/* <h2 className="heading">ADD EXPENSE</h2> */}
+      {/* <div className="row ">
+        <div className="col ">
           <AddExpense />
         </div>
+      </div> */}
+      <div className="row">
+        <ExpenseList />
       </div>
       <Footer />
     </div>
