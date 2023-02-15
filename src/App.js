@@ -6,33 +6,36 @@ import Spent from "./Components/Spent";
 import AddExpense from "./Components/AddExpense";
 import Footer from "./Components/Footer";
 import ExpenseList from "./Components/ExpenseList";
+import { AppProvider } from "./Context/AppContext";
 function App() {
   return (
-    <div className="container">
-      <h1 className="heading">My Budget Planner</h1>
-      <div className="row ">
-        <div className="col">
-          <Budget />
+    <AppProvider>
+      <div className="container">
+        <h1 className="heading">My Budget Planner</h1>
+        <div className="row ">
+          <div className="col">
+            <Budget />
+          </div>
+          <div className="col">
+            <Remaining />
+          </div>
+          <div className="col">
+            <Spent />
+          </div>
         </div>
-        <div className="col">
-          <Remaining />
+        <div className="row">
+          <ExpenseList />
         </div>
-        <div className="col">
-          <Spent />
+        <h2 className="heading">ADD EXPENSE</h2>
+        <div className="row ">
+          <div className="col ">
+            <AddExpense />
+          </div>
         </div>
-      </div>
-      <div className="row">
-        <ExpenseList />
-      </div>
-      <h2 className="heading">ADD EXPENSE</h2>
-      <div className="row ">
-        <div className="col ">
-          <AddExpense />
-        </div>
-      </div>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </AppProvider>
   );
 }
 
